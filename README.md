@@ -1,6 +1,6 @@
 # Gallery+
-[![Build Status](https://travis-ci.org/interfasys/galleryplus.svg?branch=master)](https://travis-ci.org/interfasys/galleryplus)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/interfasys/galleryplus/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/interfasys/galleryplus/?branch=master)
+[![Build Status](https://travis-ci.org/interfasys/galleryplus.svg?branch=stable8.1)](https://travis-ci.org/interfasys/galleryplus)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/interfasys/galleryplus/badges/quality-score.png?b=stable8.1)](https://scrutinizer-ci.com/g/interfasys/galleryplus/?branch=stable8.1)
 [![Codacy Badge](https://www.codacy.com/project/badge/02f02de5292e4f7393cd7e5697227a5a)](https://www.codacy.com/app/interfaSys/galleryplus)
 [![Code Climate](https://codeclimate.com/github/interfasys/galleryplus/badges/gpa.svg)](https://codeclimate.com/github/interfasys/galleryplus)
 
@@ -8,7 +8,7 @@ Fork of media gallery for ownCloud which includes previews for all media types s
 
 Provides a dedicated view of all images in a grid, adds image viewing capabilities to the files app and adds a gallery view to public links.
 
-This branch currently targets 8.1
+This branch currently targets ownCloud 8.1
 
 ![Screenshot](https://oc8demo.interfacloud.com/index.php/s/pvetv4RaIbFhDRb/download)
 ## Featuring
@@ -168,14 +168,14 @@ Read about it in the [Administration Manual](https://doc.owncloud.org/server/8.0
 
 In your terminal go into the **owncloud/apps/** directory and then run the following command:
 ```
-$ git clone https://github.com/interfasys/galleryplus.git
+$ git clone -b stable8.1 https://github.com/interfasys/galleryplus.git
 ```
 
 Now you can activate it in the apps menu. It's called Gallery
 
 To update the app go inside you **owncloud/apps/galleryplus/** directory and type:
 ```
-$ git pull --rebase
+$ git pull --rebase origin stable8.1
 ```
 
 ## List of patches
