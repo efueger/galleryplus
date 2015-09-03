@@ -19,13 +19,13 @@ engines:
   enabled: true
   checks:
     Generic WhiteSpace DisallowTabIndent TabsUsed:
-      enabled: false
+      enabled: true
     Squiz Functions MultiLineFunctionDeclaration BraceOnSameLine:
-      enabled: false
+      enabled: true
     PSR2 Classes ClassDeclaration CloseBraceAfterBody:
-      enabled: false
+      enabled: true
     PSR2 Methods FunctionCallSignature MultipleArguments:
-      enabled: false
+      enabled: true
 eslint:
   enabled: true
 csslint:
