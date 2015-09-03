@@ -15,21 +15,21 @@
 engines:
 # to turn on an engine, add it here and set enabled to `true`
 # to turn off an engine, set enabled to `false` or remove it
- phpcodesniffer:
-  enabled: true
-  checks:
-    Generic WhiteSpace DisallowTabIndent TabsUsed:
-      enabled: true
-    Squiz Functions MultiLineFunctionDeclaration BraceOnSameLine:
-      enabled: true
-    PSR2 Classes ClassDeclaration CloseBraceAfterBody:
-      enabled: true
-    PSR2 Methods FunctionCallSignature MultipleArguments:
-      enabled: true
-eslint:
-  enabled: true
-csslint:
-  enabled: true
+  phpcodesniffer :
+    enabled: true
+    checks:
+      Generic WhiteSpace DisallowTabIndent TabsUsed:
+        enabled: false
+      Squiz Functions MultiLineFunctionDeclaration BraceOnSameLine:
+        enabled: false
+      PSR2 Classes ClassDeclaration CloseBraceAfterBody:
+        enabled: false
+      PSR2 Methods FunctionCallSignature MultipleArguments:
+        enabled: false
+  eslint:
+    enabled: true
+  csslint:
+    enabled: true
 
 # Engines can analyze files and report issues on them, but you can separately
 # decide which files will receive ratings based on those issues. This is
@@ -67,5 +67,3 @@ exclude_paths:
   - 'controller/configapicontroller.php'
   - 'controller/filesapicontroller.php'
   - 'controller/previewapicontroller.php'
-
-#
