@@ -27,7 +27,7 @@ engines:
       PSR2 Methods FunctionCallSignature MultipleArguments:
         enabled: false
   eslint:
-    enabled: true
+    enabled: false
   csslint:
     enabled: true
 
